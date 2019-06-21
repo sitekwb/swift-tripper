@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F041CF922BD4FEE00E7715C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F041CF822BD4FEE00E7715C /* Model.swift */; };
+		3F041CFB22BD52A300E7715C /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F041CFA22BD52A300E7715C /* Bill.swift */; };
+		3F041CFD22BD52AA00E7715C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F041CFC22BD52AA00E7715C /* Person.swift */; };
 		3F61CDD022BA37FD0082220F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61CDCF22BA37FD0082220F /* AppDelegate.swift */; };
 		3F61CDD222BA37FD0082220F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61CDD122BA37FD0082220F /* FirstViewController.swift */; };
 		3F61CDD422BA37FD0082220F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61CDD322BA37FD0082220F /* SecondViewController.swift */; };
@@ -14,6 +17,8 @@
 		3F61CDD922BA37FF0082220F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F61CDD822BA37FF0082220F /* Assets.xcassets */; };
 		3F61CDDC22BA37FF0082220F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F61CDDA22BA37FF0082220F /* LaunchScreen.storyboard */; };
 		3F61CDE722BA38000082220F /* TripperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61CDE622BA38000082220F /* TripperTests.swift */; };
+		3F61CDF322BA3E6C0082220F /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F61CDF122BA3E6C0082220F /* Model.xcdatamodeld */; };
+		3F61CE0322BD4F220082220F /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61CE0222BD4F210082220F /* Trip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F041CF822BD4FEE00E7715C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		3F041CFA22BD52A300E7715C /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
+		3F041CFC22BD52AA00E7715C /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		3F61CDCC22BA37FD0082220F /* Tripper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tripper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F61CDCF22BA37FD0082220F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F61CDD122BA37FD0082220F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +46,9 @@
 		3F61CDE222BA38000082220F /* TripperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F61CDE622BA38000082220F /* TripperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripperTests.swift; sourceTree = "<group>"; };
 		3F61CDE822BA38000082220F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F61CDF222BA3E6C0082220F /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		3F61CDFF22BA4ECF0082220F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		3F61CE0222BD4F210082220F /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Trip.swift; path = /Users/wojciechsitek/OneDrive/APIOS/Tripper/Tripper/Trip.swift; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +90,18 @@
 		3F61CDCE22BA37FD0082220F /* Tripper */ = {
 			isa = PBXGroup;
 			children = (
+				3F61CE0222BD4F210082220F /* Trip.swift */,
+				3F041CFA22BD52A300E7715C /* Bill.swift */,
+				3F041CFC22BD52AA00E7715C /* Person.swift */,
 				3F61CDCF22BA37FD0082220F /* AppDelegate.swift */,
 				3F61CDD122BA37FD0082220F /* FirstViewController.swift */,
 				3F61CDD322BA37FD0082220F /* SecondViewController.swift */,
 				3F61CDD522BA37FD0082220F /* Main.storyboard */,
+				3F61CDF122BA3E6C0082220F /* Model.xcdatamodeld */,
 				3F61CDD822BA37FF0082220F /* Assets.xcassets */,
 				3F61CDDA22BA37FF0082220F /* LaunchScreen.storyboard */,
 				3F61CDDD22BA37FF0082220F /* Info.plist */,
+				3F041CF822BD4FEE00E7715C /* Model.swift */,
 			);
 			path = Tripper;
 			sourceTree = "<group>";
@@ -200,9 +216,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F61CE0322BD4F220082220F /* Trip.swift in Sources */,
 				3F61CDD422BA37FD0082220F /* SecondViewController.swift in Sources */,
 				3F61CDD022BA37FD0082220F /* AppDelegate.swift in Sources */,
+				3F041CF922BD4FEE00E7715C /* Model.swift in Sources */,
+				3F041CFB22BD52A300E7715C /* Bill.swift in Sources */,
 				3F61CDD222BA37FD0082220F /* FirstViewController.swift in Sources */,
+				3F041CFD22BD52AA00E7715C /* Person.swift in Sources */,
+				3F61CDF322BA3E6C0082220F /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +250,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				3F61CDD622BA37FD0082220F /* Base */,
+				3F61CDFF22BA4ECF0082220F /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -465,6 +487,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3F61CDF122BA3E6C0082220F /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3F61CDF222BA3E6C0082220F /* Model.xcdatamodel */,
+			);
+			currentVersion = 3F61CDF222BA3E6C0082220F /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3F61CDC422BA37FD0082220F /* Project object */;
 }
