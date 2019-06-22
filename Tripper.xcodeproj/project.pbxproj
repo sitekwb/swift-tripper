@@ -10,6 +10,8 @@
 		3F041CF922BD4FEE00E7715C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F041CF822BD4FEE00E7715C /* Model.swift */; };
 		3F041CFB22BD52A300E7715C /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F041CFA22BD52A300E7715C /* Bill.swift */; };
 		3F041CFD22BD52AA00E7715C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F041CFC22BD52AA00E7715C /* Person.swift */; };
+		3F041D1022BE45BC00E7715C /* TripTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F041D0F22BE45BC00E7715C /* TripTableViewController.swift */; };
+		3F041D1222BE4D4300E7715C /* NewThingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F041D1122BE4D4300E7715C /* NewThingViewController.swift */; };
 		3F61CDD022BA37FD0082220F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61CDCF22BA37FD0082220F /* AppDelegate.swift */; };
 		3F61CDD222BA37FD0082220F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61CDD122BA37FD0082220F /* FirstViewController.swift */; };
 		3F61CDD422BA37FD0082220F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61CDD322BA37FD0082220F /* SecondViewController.swift */; };
@@ -35,11 +37,13 @@
 		3F041CF822BD4FEE00E7715C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		3F041CFA22BD52A300E7715C /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
 		3F041CFC22BD52AA00E7715C /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		3F041D0222BD656D00E7715C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F041D0F22BE45BC00E7715C /* TripTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTableViewController.swift; sourceTree = "<group>"; };
+		3F041D1122BE4D4300E7715C /* NewThingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewThingViewController.swift; sourceTree = "<group>"; };
 		3F61CDCC22BA37FD0082220F /* Tripper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tripper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F61CDCF22BA37FD0082220F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F61CDD122BA37FD0082220F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		3F61CDD322BA37FD0082220F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		3F61CDD622BA37FD0082220F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F61CDD822BA37FF0082220F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F61CDDB22BA37FF0082220F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F61CDDD22BA37FF0082220F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,7 +51,6 @@
 		3F61CDE622BA38000082220F /* TripperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripperTests.swift; sourceTree = "<group>"; };
 		3F61CDE822BA38000082220F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F61CDF222BA3E6C0082220F /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
-		3F61CDFF22BA4ECF0082220F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		3F61CE0222BD4F210082220F /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Trip.swift; path = /Users/wojciechsitek/OneDrive/APIOS/Tripper/Tripper/Trip.swift; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
@@ -90,6 +93,7 @@
 		3F61CDCE22BA37FD0082220F /* Tripper */ = {
 			isa = PBXGroup;
 			children = (
+				3F041D0F22BE45BC00E7715C /* TripTableViewController.swift */,
 				3F61CE0222BD4F210082220F /* Trip.swift */,
 				3F041CFA22BD52A300E7715C /* Bill.swift */,
 				3F041CFC22BD52AA00E7715C /* Person.swift */,
@@ -97,6 +101,7 @@
 				3F61CDD122BA37FD0082220F /* FirstViewController.swift */,
 				3F61CDD322BA37FD0082220F /* SecondViewController.swift */,
 				3F61CDD522BA37FD0082220F /* Main.storyboard */,
+				3F041D1122BE4D4300E7715C /* NewThingViewController.swift */,
 				3F61CDF122BA3E6C0082220F /* Model.xcdatamodeld */,
 				3F61CDD822BA37FF0082220F /* Assets.xcassets */,
 				3F61CDDA22BA37FF0082220F /* LaunchScreen.storyboard */,
@@ -218,11 +223,13 @@
 			files = (
 				3F61CE0322BD4F220082220F /* Trip.swift in Sources */,
 				3F61CDD422BA37FD0082220F /* SecondViewController.swift in Sources */,
+				3F041D1022BE45BC00E7715C /* TripTableViewController.swift in Sources */,
 				3F61CDD022BA37FD0082220F /* AppDelegate.swift in Sources */,
 				3F041CF922BD4FEE00E7715C /* Model.swift in Sources */,
 				3F041CFB22BD52A300E7715C /* Bill.swift in Sources */,
 				3F61CDD222BA37FD0082220F /* FirstViewController.swift in Sources */,
 				3F041CFD22BD52AA00E7715C /* Person.swift in Sources */,
+				3F041D1222BE4D4300E7715C /* NewThingViewController.swift in Sources */,
 				3F61CDF322BA3E6C0082220F /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,8 +256,7 @@
 		3F61CDD522BA37FD0082220F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3F61CDD622BA37FD0082220F /* Base */,
-				3F61CDFF22BA4ECF0082220F /* en */,
+				3F041D0222BD656D00E7715C /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
