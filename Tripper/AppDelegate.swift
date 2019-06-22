@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        //PUSH registerForPushNotifications()
         return true
     }
 
@@ -89,7 +90,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
     }
     
-    //USER NOTIFICATIONS
+    /*
+    //PUSH NOTIFICATIONS
     func registerForPushNotifications() {
         UNUserNotificationCenter.current() // 1
             .requestAuthorization(options: [.alert, .sound, .badge]) { // 2
@@ -97,7 +99,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 print("Permission granted: \(granted)") // 3
         }
     }
-
+     */
 
 }
 

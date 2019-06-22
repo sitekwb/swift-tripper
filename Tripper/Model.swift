@@ -10,4 +10,15 @@ import Foundation
 
 class Model{
     
+    enum ViewState{
+        case start
+        case newBill
+        case newTrip
+    }
+    
+    var viewState:ViewState = .start
+    
+    init(){
+        //TODO finished here
+    }
 }
