@@ -10,11 +10,10 @@ import UIKit
 
 class TripTableViewController: UITableViewController {
 
-    var trips:[Trip] = []
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        trips = [Trip("Barcelona"), Trip("Egypt"), Trip("Bolivia")]
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -32,15 +31,16 @@ class TripTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return trips.count
+        let model = (UIApplication.shared.delegate as! AppDelegate).model!
+        return model.getTrips().count
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "tripCell", for: indexPath)
 
-        
-        cell.textLabel?.text = trips[indexPath.row].name
+        let model = (UIApplication.shared.delegate as! AppDelegate).model!
+        cell.textLabel?.text = model.getTrips()[indexPath.row].name
         // Configure the cell...
         cell.textLabel?.textColor = UIColor.white
         

@@ -17,8 +17,11 @@ class NewThingViewController: UIView {
         // Drawing code
     }
     */
-
+    @IBAction func pushedNewTrip(_ sender: UIButton) {
+        Model.sendViewStateNotification(Model.ViewState.newTrip)
+    }
+    
     @IBAction func pushedNewBill(_ sender: UIButton) {
-        
+        Model.sendViewStateNotification(Model.ViewState.newBill)
     }
 }
